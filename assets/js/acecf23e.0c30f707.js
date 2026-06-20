@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthesandbar=self.webpackChunkthesandbar||[]).push([["3220"],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/thesandbar/blog","blogTitle":"Blog","authorsListPath":"/thesandbar/blog/authors"}')}}]);

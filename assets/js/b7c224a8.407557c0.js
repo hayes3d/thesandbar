@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthesandbar=self.webpackChunkthesandbar||[]).push([["2801"],{5651(a){a.exports=JSON.parse('{"metadata":{"permalink":"/thesandbar/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
