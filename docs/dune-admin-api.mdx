@@ -1,0 +1,27 @@
+---
+sidebar_position: 3
+title: dune-admin API Reference
+---
+
+import ApiTable from '@site/src/components/ApiTable';
+
+# dune-admin API Reference
+
+[dune-admin](https://github.com/Icehunter/dune-admin) is a community-built administration panel for Dune Awakening private servers. It exposes a REST API over the game's PostgreSQL and RabbitMQ stack.
+
+All endpoints are prefixed with `/api/v1`. When authentication is enabled, all endpoints except `/api/v1/auth/*` require a session cookie obtained via `/api/v1/auth/login`.
+
+:::tip
+Use the search box and method filters below to find specific endpoints quickly.
+:::
+
+<ApiTable />
+
+---
+
+## Notes
+
+- Endpoints with `{id}` require the player's `account_id` from the database, not their character ID.
+- Use `/api/v1/players?search=NAME` to look up a player's `account_id` by character name.
+- When auth is disabled, all endpoints are accessible without a session cookie.
+- dune-admin version verified: v0.41.7
